@@ -1,0 +1,344 @@
+{
+  "ts": "2026-10-02T13:57:14.573372",
+  "title": "Trails in the Sky SC 2nd Chapter - Viewer Mod (静名+蕾恩+服装+唇彩修复)",
+  "install": "将包内所有文件按相对路径复制到游戏根目录 (Trails in the Sky 2nd Chapter) 覆盖",
+  "note": "xinput1_4.dll + xinput1_4_looseload.dll 为散装加载核心(必需); 与其它第三方整合补丁(Juij/winmm/version)无依赖关系",
+  "t_viewer": "99行 CharaList idx545~549,552,553 = 静名7套服装(泳装/便服/另類配色/失控/泡澡服/兔女郎/界服)",
+  "t_name": "1591行, slot0=545~549,552,553 配对行",
+  "shader_md5_expect": {
+    "asset/dx11/shader/chr_skin#1a70c371.fxo": "84E3CE6BBD4CED411FF83D55B6F2DDD5",
+    "asset/dx11/shader/chr_skin#bdbffe42.fxo": null
+  },
+  "files": [
+    {
+      "path": "table_tc/t_viewer.tbl",
+      "md5": "4281B8197D3307B68C328BEE25D7FDE7",
+      "size": 57505
+    },
+    {
+      "path": "table_tc/t_name.tbl",
+      "md5": "DCF5289501035DE33B3349486A996442",
+      "size": 255643
+    },
+    {
+      "path": "asset/common/model/chr5117.mdl",
+      "md5": "24D7A04E393BE26EAE2C8C8BEE0FB9D2",
+      "size": 6101568
+    },
+    {
+      "path": "script_tc/ani/chr5117.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8151.mdl",
+      "md5": "88C90858B78CDACB5E6669C1A664682D",
+      "size": 4500959
+    },
+    {
+      "path": "asset/common/model/chr8151_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8151_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8151.mi",
+      "md5": "F1CDAE4FA89910DCB9BD58FE920E4350",
+      "size": 37657
+    },
+    {
+      "path": "script_tc/ani/chr8151.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8152.mdl",
+      "md5": "DE75BDB4A7BECB1EA4D5410D54328FA4",
+      "size": 5172721
+    },
+    {
+      "path": "asset/common/model/chr8152_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8152_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8152.mi",
+      "md5": "256AFF68D33661F4E904125EAF483D38",
+      "size": 43428
+    },
+    {
+      "path": "script_tc/ani/chr8152.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8153.mdl",
+      "md5": "8FD5D15E02ECF26453A22F292450919A",
+      "size": 6735835
+    },
+    {
+      "path": "asset/common/model/chr8153_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8153_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8153.mi",
+      "md5": "B236B543A7A3CE58BFAB85CDC8D9592C",
+      "size": 69597
+    },
+    {
+      "path": "script_tc/ani/chr8153.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8154.mdl",
+      "md5": "AEFCF29699F7C199F3CB078359C4B3B1",
+      "size": 6252080
+    },
+    {
+      "path": "asset/common/model/chr8154_face.mdl",
+      "md5": "9758BF980CEDF9BFD8AEEB455F47F7F0",
+      "size": 51792
+    },
+    {
+      "path": "asset/common/model/chr8154_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8154.mi",
+      "md5": "0753FC10BC11F6AF922EA108E7544F15",
+      "size": 80158
+    },
+    {
+      "path": "script_tc/ani/chr8154.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8155.mdl",
+      "md5": "04A43FBEA7BF1185583FE8CEB07D5A28",
+      "size": 3936393
+    },
+    {
+      "path": "asset/common/model/chr8155_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8155_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8155.mi",
+      "md5": "FE50C1AF504812C1C69CA22DF96AA096",
+      "size": 37657
+    },
+    {
+      "path": "script_tc/ani/chr8155.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8158.mdl",
+      "md5": "B654D8027137E9D03AB4BDEFF8F836E2",
+      "size": 4605884
+    },
+    {
+      "path": "asset/common/model/chr8158_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8158_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8158.mi",
+      "md5": "278E1C5F2CB6CC876F7997E8720E05A0",
+      "size": 40476
+    },
+    {
+      "path": "script_tc/ani/chr8158.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/common/model/chr8159.mdl",
+      "md5": "50935CFAEB0E0EAA9E828BC7CA51F54D",
+      "size": 6700045
+    },
+    {
+      "path": "asset/common/model/chr8159_face.mdl",
+      "md5": "2449000750C0C563923DCC63AC41AEC4",
+      "size": 49580
+    },
+    {
+      "path": "asset/common/model/chr8159_m_wait.mdl",
+      "md5": "5B1D847E7CE1F948F602E60A825C781D",
+      "size": 147784
+    },
+    {
+      "path": "asset/common/model_info/chr8159.mi",
+      "md5": "B236B543A7A3CE58BFAB85CDC8D9592C",
+      "size": 69597
+    },
+    {
+      "path": "script_tc/ani/chr8159.dat",
+      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
+      "size": 707604
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c01_03.dds",
+      "md5": "2A23AF77CE61852D28740C5D6F0152EE",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c01_03_n.dds",
+      "md5": "531B11A0B402EED7EB0D64E86BDAD205",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c10_02.dds",
+      "md5": "FA60968F1C859F90DD7DF499C1A2EE1C",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c10_03_a.dds",
+      "md5": "B14DC9DB8EE9663C287AE9D7EBE12CFC",
+      "size": 5592580
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c10_03_n.dds",
+      "md5": "5268117AD4D8F4D749B4FD2894F67E76",
+      "size": 2796344
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c10_03_q.dds",
+      "md5": "C6904FFFDDFC53C93234F91E2D3D0A33",
+      "size": 5592580
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c12_00.dds",
+      "md5": "940BEE0B35830834351D3D0A164B7C68",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c12_eyes_a.dds",
+      "md5": "0B9D8391B4127758BED9CE5DEC484D1D",
+      "size": 349700
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c73_03_a.dds",
+      "md5": "BDF67DD4665DEA8734AE3832DE60D171",
+      "size": 5592580
+    },
+    {
+      "path": "asset/dx11/image/chr5001_c02_03.dds",
+      "md5": "4C554B6739A23432B9E8D6BEE4D02BC5",
+      "size": 2796344
+    },
+    {
+      "path": "asset/dx11/image/chr5001_c02_03_n.dds",
+      "md5": "AC1C9EC55AA3E5AC7491EBF529EE0B56",
+      "size": 2796344
+    },
+    {
+      "path": "asset/dx11/image/chr5001_c02_03_q.dds",
+      "md5": "4630F99710A89414F55F4BA2EE529A09",
+      "size": 5592580
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_03.dds",
+      "md5": "410ADED2EA331ABC98BD55CC425BB449",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_03_n.dds",
+      "md5": "3309B3A47DB901A4142D21CB871A8B4B",
+      "size": 2796344
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_03_q.dds",
+      "md5": "F018FEB65CBFCB68C00B1233A22E4CFB",
+      "size": 1398276
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_04.dds",
+      "md5": "F639EBA4F88CE32B3DDAB8E472CB544C",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_04_n.dds",
+      "md5": "1C82EDE1F41D481818D141E31C608ED9",
+      "size": 699192
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_04_q.dds",
+      "md5": "D385F5575D2866851CCFA5ED6657C46F",
+      "size": 349700
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c72_05.dds",
+      "md5": "5E67D42E33F36B1DDE7F59F00D38AF57",
+      "size": 174904
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c61_04_n.dds",
+      "md5": "D404E064C321F99FC28A33C73B47EBB6",
+      "size": 174904
+    },
+    {
+      "path": "asset/dx11/image/chr5117_c61_04_p.dds",
+      "md5": "FD27D84C5410980A633378DE87670721",
+      "size": 43832
+    },
+    {
+      "path": "asset/dx11/image/woman01_face_q.dds",
+      "md5": "DB62054A74BD11ED5ACCE083A79321E1",
+      "size": 349700
+    },
+    {
+      "path": "asset/dx11/image/common_w01_face_q.dds",
+      "md5": "5926605D840B0B647F426F102FE388CE",
+      "size": 5592532
+    },
+    {
+      "path": "asset/dx11/shader/chr_skin#1a70c371.fxo",
+      "md5": "84E3CE6BBD4CED411FF83D55B6F2DDD5",
+      "size": 25800
+    },
+    {
+      "path": "asset/dx11/shader/chr_skin#bdbffe42.fxo",
+      "md5": "D444AD6396A4909225CEACB05BFD7804",
+      "size": 25144
+    },
+    {
+      "path": "xinput1_4.dll",
+      "md5": "56E918905E134EC583E84C83BA0D58AE",
+      "size": 94208
+    },
+    {
+      "path": "xinput1_4_looseload.dll",
+      "md5": "9F0580BEC1C2CABA7213E8206D3B8C64",
+      "size": 51712
+    }
+  ]
+}
