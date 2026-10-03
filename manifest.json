@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-03T13:23:29.173362",
+  "ts": "2026-10-03T13:27:01.871025",
   "title": "Trails in the Sky SC 2nd Chapter - Viewer Mod (静名+服装+界轨全员+亚妮艾丝+唇彩修复)",
   "install": "将包内所有文件按相对路径复制到游戏根目录 (Trails in the Sky 2nd Chapter) 覆盖",
   "note": "xinput1_4.dll + xinput1_4_looseload.dll 为散装加载核心(必需); 与其它第三方整合补丁(Juij/winmm/version)无依赖关系; 内置防盗版: Kirara_* 四个声明文件(3声明+QQ群二维码)必须随包完整分发且内容未经修改, 任一缺失/被改时游戏启动即弹窗提示并拒绝运行(xinput1_4.dll 内置存在性+MD5内容校验)",
@@ -16,7 +16,8 @@
     "亚妮艾丝 chr8186: 琴穿模修复+收刀修复(equ8186.mi=Kai原配拔武器变形)",
     "主角团7人皮肤显示名全部Kai官方名(无cXX形态, batch51)",
     "85件唇彩手术mdl(菲莉/莉婕特/茱迪丝/艾蕾因/蕾恩/亚妮艾丝/女神系)",
-    "已移除: 全部赛车皇后条目(chr8156/8157/8182/8221/8282/8302/8312/8313)与亚妮艾丝女神条目(chr8198)"
+    "已移除: 全部赛车皇后条目(chr8156/8157/8182/8221/8282/8302/8312/8313)与亚妮艾丝女神条目(chr8198)",
+    "静名7服装dat(chr8151~8159)同步至batch48态(拍手/合掌注册一致; 服装行slot4=chr5117共享dat, 此前已生效, 孤儿dat同步=保险)"
   ],
   "excluded": "游戏本体替换线(chr0123黎恩注入/chr0126/chr5107/kx*/sc0126/chr0001_c74等)不在本包; 赛车皇后与女神条目已从本包移除(表行删除+资产剔除); 各历史备份/存档文件不在包内",
   "files": [
@@ -22792,38 +22793,38 @@
     },
     {
       "path": "script_tc/ani/chr8151.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8152.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8153.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8154.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8155.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8158.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8159.dat",
-      "md5": "1BECECEAAE4E5FF6678EF414095AB2C9",
-      "size": 707604
+      "md5": "2233D27E9A767F589FDC4492904C604E",
+      "size": 724976
     },
     {
       "path": "script_tc/ani/chr8160.dat",
