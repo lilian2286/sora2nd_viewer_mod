@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirara — Viewer Mod 更新发布地址</title>
+  <style>
+    :root {
+      --primary: #7ee787;
+      --bg-start: #0d2818;
+      --bg-end: #041607;
+    }
+    html { min-height: 100%; font-family: "Microsoft YaHei", system-ui, -apple-system, sans-serif; }
+    body {
+      margin: 0; min-height: 100vh; box-sizing: border-box;
+      display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(var(--bg-start), var(--bg-end));
+      color: var(--primary);
+      text-shadow: 0 0 1ex rgba(51,255,51,.35);
+    }
+    .terminal {
+      max-width: 720px; padding: 48px 32px;
+    }
+    h1 { font-size: 2rem; margin: 0 0 24px; }
+    .line { margin: 12px 0; line-height: 1.7; }
+    .line::before { content: "> "; color: var(--primary); }
+    .controls { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .button {
+      display: inline-block; text-decoration: none;
+      background: rgba(126,231,135,.1);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      padding: 8px 18px; border-radius: 4px;
+      font-size: 1.05rem; letter-spacing: .5px;
+      transition: all .3s ease;
+    }
+    .button:hover { background: rgba(126,231,135,.25); }
+    .warn { color: #ffd76e; text-shadow: 0 0 1ex rgba(255,215,110,.35); }
+    .qrcode { margin-top: 36px; text-align: center; }
+    .qrcode img {
+      width: 260px; border-radius: 12px; display: block; margin: 0 auto;
+      background: #fff; padding: 10px;
+      box-shadow: 0 0 22px rgba(126,231,135,.28);
+    }
+    .qrcode .hint { margin-top: 10px; font-size: .95rem; color: #9fe8a8; }
+  </style>
+</head>
+<body>
+  <main class="terminal">
+    <h1>Kirara — Viewer Mod 更新发布地址</h1>
+
+    <div class="line">《空之轨迹 the 2nd Chapter》Viewer Mod（角色/服装追加查看器）由 <b>Kirara</b> 免费制作分享。</div>
+    <div class="line warn">本 Mod 免费分享，请勿在任何渠道受骗付费购买！</div>
+    <div class="line">最新版本与后续更新发布于作者 B 站主页：</div>
+
+    <div class="controls">
+      <a class="button" href="https://space.bilibili.com/1318661" target="_blank">作者 Bilibili 主页（更新发布地址）</a>
+    </div>
+
+    <div class="qrcode">
+      <img src="Kirara_QQ群二维码.jpg" alt="QQ群二维码 — 台面下的某群（群号 2159081126）">
+      <div class="hint">QQ交流群「台面下的某群」｜群号 2159081126 — 扫一扫二维码加入群聊</div>
+    </div>
+
+    <div class="line" style="margin-top:32px">为防止倒卖盗卖，随 Mod 分发的声明文件（Kirara_*.txt / Kirara_*.html）必须完整保留，请勿擅自删除，否则游戏将无法启动。</div>
+  </main>
+</body>
+</html>
